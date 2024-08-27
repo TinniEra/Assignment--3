@@ -1,1 +1,89 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+            
+              }
+            }
+          }
+        }
+      </script>
  
+    
+ </head>
+ <body>
+    <header class="container mx-auto py-4" >
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Home </a></li>
+                  <li><a>Services </a></li>
+                  <li><a>Portfolio </a></li>
+                  <li><a>Blogs </a></li>
+                  <li><a> Contact Us </a></li>
+                   
+                </ul>
+              </div>
+              <i class="fi fi-rr-arrow-right  -rotate-45  "></i>
+              <a class="btn btn-ghost text-4xl ">Rinterio </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-xl font-[400] ">
+                <li class="font-bold"><a>Home </a></li>
+                  <li><a>Services </a></li>
+                  <li><a>Portfolio </a></li>
+                  <li><a>Blogs </a></li>
+                  <li><a> Contact Us </a></li>
+                   
+                
+              </ul>
+            </div>
+            <div class="navbar-end flex space-x-4">
+                <i class=" bg-stone-100 rounded-3xl fi fi-rr-search"></i>
+                <i class="fi fi-rr-shopping-cart"></i>
+              <a class="btn btn-success   ">Book Consult <i class="fi fi-rr-arrow-right -rotate-45  "></i></a>
+            </div>
+          </div>
+    </header>
+    <section class="text-center">
+      <div  >
+        <img class="px-96"  src="./assets/banner.png"  alt="" >
+        <h1 class="font-extrabold pl-15 text-6xl pb-5">A barn house of this design has a<br/>
+
+          striking appearance</h1>
+          <p class="text-lg pb-5" >The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br/> 
+            accents, and large windows that flood the space with natural light</p>
+            <button class="btn btn-success    rounded-2xl h-10 w-60 ">Accent <i class="fi fi-rr-arrow-right -rotate-45  "></i></button>
+      </div>
+    </section>
+ </body>
+ </html>
